@@ -1,0 +1,662 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: es\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Link found; included in the footer."
+msgstr "Enlace encontrado; se incluye en el footer."
+
+msgid "Not found."
+msgstr "No se ha encontrado."
+
+msgid "Logo contrast enabled to improve readability."
+msgstr "Contraste del logo activado para mejorar su lectura."
+
+msgid "Logo contrast disabled: the original is already readable on this background."
+msgstr "Contraste del logo desactivado: el original ya se distingue bien sobre este fondo."
+
+msgid "Select or change logo"
+msgstr "Seleccionar o cambiar logo"
+
+msgid "Choose a PNG, JPG, WebP, GIF or AVIF image."
+msgstr "Selecciona una imagen PNG, JPG, WebP, GIF o AVIF."
+
+msgid "Image upload failed"
+msgstr "No se pudo subir la imagen"
+
+msgid "Logo added to the media library"
+msgstr "Logo añadido a la biblioteca de medios"
+
+msgid "Choose an image or video."
+msgstr "Selecciona una imagen o un vídeo."
+
+msgid "Choose a supported image or video."
+msgstr "Selecciona una imagen o un vídeo compatible."
+
+msgid "File upload failed"
+msgstr "No se pudo subir el archivo"
+
+msgid "Your browser cannot play this video. Try WebM or MP4 with a supported codec."
+msgstr "El navegador no puede reproducir este vídeo. Prueba WebM o MP4 con un códec compatible."
+
+msgid "No matching fonts"
+msgstr "No hay fuentes que coincidan"
+
+msgid "Fit"
+msgstr "Ajuste"
+
+msgid "Position"
+msgstr "Encuadre"
+
+msgid "Background changed to "
+msgstr "Fondo cambiado a "
+
+msgid "color"
+msgstr "color"
+
+msgid "image"
+msgstr "imagen"
+
+msgid "video"
+msgstr "vídeo"
+
+msgid "Could not update preview"
+msgstr "No se pudo actualizar la vista previa"
+
+msgid "Video · "
+msgstr "Vídeo · "
+
+msgid "Image · "
+msgstr "Imagen · "
+
+msgid "PNG, JPG, WebP, GIF, AVIF or video"
+msgstr "PNG, JPG, WebP, GIF, AVIF o vídeo"
+
+msgid "Drop an image here or click to choose"
+msgstr "Arrastra una imagen aquí o pulsa para seleccionar"
+
+msgid "No site logo"
+msgstr "Sin logo del sitio"
+
+msgid "No logo"
+msgstr "Sin logo"
+
+msgid "Using the logo configured in WordPress."
+msgstr "Se utiliza el logo configurado en WordPress."
+
+msgid "WordPress has no site logo. Choose Custom logo to add one."
+msgstr "WordPress no tiene un logo configurado. Elige Logo personalizado para añadir uno."
+
+msgid "No logo will be shown."
+msgstr "No se mostrará ningún logo."
+
+msgid "Click the image to change it or drop a file."
+msgstr "Pulsa la imagen para cambiarla o arrastra un archivo."
+
+msgid "Disable smart contrast to choose the text color."
+msgstr "Desactiva Contraste inteligente para elegir el color del texto."
+
+msgid "Enable Gradient to enable Motion."
+msgstr "Activa Gradiente para habilitar Movimiento."
+
+msgid "Background image / video"
+msgstr "Imagen / vídeo de fondo"
+
+msgid "Use as background"
+msgstr "Usar como fondo"
+
+msgid "Media removed. Background changed to color."
+msgstr "Recurso retirado. Fondo cambiado a color."
+
+msgid "Choose media"
+msgstr "Seleccionar recurso"
+
+msgid "Use this file"
+msgstr "Usar este archivo"
+
+msgid "Link copied"
+msgstr "Enlace copiado"
+
+msgid "Saving…"
+msgstr "Guardando…"
+
+msgid "Could not save"
+msgstr "No se pudo guardar"
+
+msgid "Changes saved"
+msgstr "Cambios guardados"
+
+msgid "Could not confirm. Please try again."
+msgstr "No se pudo confirmar. Vuelve a intentarlo."
+
+msgid "Desktop"
+msgstr "Escritorio"
+
+msgid "Tablet"
+msgstr "Tableta"
+
+msgid "Mobile"
+msgstr "Móvil"
+
+msgid "Enabled"
+msgstr "Activado"
+
+msgid "Saved preview"
+msgstr "Vista guardada"
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Page"
+msgstr "Página"
+
+msgid "Style"
+msgstr "Estilo"
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "Layout"
+msgstr "Estructura"
+
+msgid "Centered"
+msgstr "Centrada"
+
+msgid "Editorial"
+msgstr "Editorial"
+
+msgid "Two columns"
+msgstr "Dos columnas"
+
+msgid "Bottom aligned"
+msgstr "Inferior"
+
+msgid "Content"
+msgstr "Contenido"
+
+msgid "The public language automatically follows WordPress or the active multilingual plugin."
+msgstr "El idioma público sigue automáticamente WordPress o el plugin multidioma activo."
+
+msgid "Headline"
+msgstr "Titular"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Use site logo"
+msgstr "Usar logo del sitio"
+
+msgid "Custom logo"
+msgstr "Logo personalizado"
+
+msgid "Drop an image here or click to select"
+msgstr "Arrastra una imagen aquí o pulsa para seleccionar"
+
+msgid "Remove custom logo"
+msgstr "Quitar logo personalizado"
+
+msgid "Form fields"
+msgstr "Campos del formulario"
+
+msgid "Name requires email or phone. With neither contact method, the form is hidden."
+msgstr "El nombre requiere correo o teléfono. Sin medios de contacto, el formulario se oculta."
+
+msgid "Privacy and legal links"
+msgstr "Privacidad y enlaces legales"
+
+msgid "WordPress links are detected automatically. Text created here is only displayed on the maintenance screen."
+msgstr "Se detectan los enlaces de WordPress automáticamente. Los textos creados aquí solo aparecen en la pantalla de mantenimiento."
+
+msgid "Page or post"
+msgstr "Página o artículo"
+
+msgid "Edit formatted text"
+msgstr "Editar texto con formato"
+
+msgid "Subscribers"
+msgstr "Suscriptores"
+
+msgid "Contact details are stored in WordPress even if notification delivery fails."
+msgstr "Los datos de contacto se guardan en WordPress, incluso si falla el envío de una notificación."
+
+msgid "View records / Export CSV"
+msgstr "Ver registros / Exportar CSV"
+
+msgid "Background"
+msgstr "Fondo"
+
+msgid "Color"
+msgstr "Color"
+
+msgid "Image"
+msgstr "Imagen"
+
+msgid "Video"
+msgstr "Vídeo"
+
+msgid "Select background image or video"
+msgstr "Seleccionar imagen o vídeo de fondo"
+
+msgid "Drop an image or video, or click to choose"
+msgstr "Arrastra una imagen o vídeo, o pulsa para elegir"
+
+msgid "Remove"
+msgstr "Quitar"
+
+msgid "Cover"
+msgstr "Cubrir"
+
+msgid "Contain"
+msgstr "Imagen completa"
+
+msgid "Original size"
+msgstr "Tamaño original"
+
+msgid "Fit height"
+msgstr "Ajustar altura"
+
+msgid "Tile (image)"
+msgstr "Mosaico (imagen)"
+
+msgid "Darken image / video"
+msgstr "Oscurecer imagen / vídeo"
+
+msgid "Typography"
+msgstr "Tipografía"
+
+msgid "Search fonts…"
+msgstr "Buscar fuente…"
+
+msgid "Original"
+msgstr "Original"
+
+msgid "On the current background"
+msgstr "Sobre el fondo actual"
+
+msgid "Keeps the original when readable; otherwise adapts the logo to white or black based on the background."
+msgstr "Conserva el original si contrasta bien; si no, adapta el logo a blanco o negro según el fondo."
+
+msgid "Mode"
+msgstr "Modo"
+
+msgid "Coming soon"
+msgstr "Próximamente"
+
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+msgid "Exclude paths · one per line"
+msgstr "Excluir rutas · una por línea"
+
+msgid "Private access"
+msgstr "Acceso privado"
+
+msgid "Copy"
+msgstr "Copiar"
+
+msgid "Legal text · maintenance only"
+msgstr "Texto legal · solo para mantenimiento"
+
+msgid "Apply"
+msgstr "Aplicar"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Visitor privacy"
+msgstr "Privacidad de los visitantes"
+
+msgid "In many countries, collecting emails, phone numbers or other personal data requires information about who collects it, how it is used and how visitors can exercise their privacy rights. We could not find a privacy policy for this form."
+msgstr "En muchos países, recoger correos, teléfonos u otros datos personales exige informar sobre quién los recoge, para qué se usan y cómo ejercer los derechos de privacidad. No hemos encontrado una política de privacidad para este formulario."
+
+msgid "Under Privacy and legal links you can link an existing page, post or document, or write formatted text here. Text created inside FreeSoon is only shown on the maintenance screen; it does not create legal pages for the rest of your website. Adapt the content to your activity and applicable requirements."
+msgstr "En Privacidad y enlaces legales puedes enlazar una página, artículo o documento existente, o escribir el texto con formato aquí. Los textos creados dentro de FreeSoon solo se muestran mientras se utiliza la pantalla de mantenimiento; no crean páginas legales para el resto del sitio. Adapta el contenido a tu actividad y a la normativa aplicable."
+
+msgid "We detected a site logo"
+msgstr "Hemos detectado un logo del sitio"
+
+msgid "A logo has been added or changed in WordPress. Would you like to use it on your maintenance screen? Choosing No keeps your current selection."
+msgstr "Se ha añadido o cambiado el logo en WordPress. ¿Quieres utilizarlo en tu pantalla de mantenimiento? Tu selección actual se conservará si eliges No."
+
+msgid "Yes, use site logo"
+msgstr "Sí, usar logo del sitio"
+
+msgid "No, keep my selection"
+msgstr "No, mantener mi selección"
+
+msgid "Permission denied."
+msgstr "Sin permisos."
+
+msgid "Design saved."
+msgstr "Diseño guardado."
+
+msgid "The site is temporarily under construction."
+msgstr "El sitio está temporalmente en construcción."
+
+msgid "● FreeSoon active"
+msgstr "● FreeSoon activo"
+
+msgid "FreeSoon is active."
+msgstr "FreeSoon está activo."
+
+msgid "Visitors see the maintenance screen."
+msgstr "Los visitantes ven la pantalla en construcción."
+
+msgid "Open studio"
+msgstr "Abrir el estudio"
+
+msgid "FreeSoon: new subscriber"
+msgstr "FreeSoon: nuevo registro"
+
+msgid "Name: "
+msgstr "Nombre: "
+
+msgid "Phone: "
+msgstr "Teléfono: "
+
+msgid "FreeSoon · Subscribers"
+msgstr "FreeSoon · Suscriptores"
+
+msgid "Records are stored in WordPress. Optional notifications use wp_mail and your site SMTP settings."
+msgstr "Los registros se guardan en WordPress. Las notificaciones opcionales utilizan wp_mail y el SMTP configurado en el sitio."
+
+msgid "Export CSV"
+msgstr "Exportar CSV"
+
+msgid "Search email"
+msgstr "Buscar correo"
+
+msgid "Search"
+msgstr "Buscar"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "Phone"
+msgstr "Teléfono"
+
+msgid "UTC date"
+msgstr "Fecha UTC"
+
+msgid "Language"
+msgstr "Idioma"
+
+msgid "Notification"
+msgstr "Notificación"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "Enter a valid launch date."
+msgstr "Introduce una fecha de lanzamiento válida."
+
+msgid "System / Sans serif"
+msgstr "Sistema / Sans serif"
+
+msgid "Monospace"
+msgstr "Monoespaciada"
+
+msgid "Cursive"
+msgstr "Cursiva"
+
+msgid "Fantasy"
+msgstr "Fantasía"
+
+msgid "Browser"
+msgstr "Navegador"
+
+msgid "WordPress Font Library"
+msgstr "Biblioteca de WordPress"
+
+msgid "Information"
+msgstr "Información"
+
+msgid "Launch date and time · WordPress timezone"
+msgstr "Fecha y hora de lanzamiento · zona horaria de WordPress"
+
+msgid "Subscription"
+msgstr "Suscripción"
+
+msgid "Eyebrow"
+msgstr "Antetítulo"
+
+msgid "Trim transparent margins"
+msgstr "Recortar márgenes transparentes"
+
+msgid "Button label"
+msgstr "Texto del botón"
+
+msgid "Email"
+msgstr "Correo"
+
+msgid "Name placeholder"
+msgstr "Texto del campo nombre"
+
+msgid "Email placeholder"
+msgstr "Texto del campo correo"
+
+msgid "Phone placeholder"
+msgstr "Texto del campo teléfono"
+
+msgid "Email new subscriber notifications"
+msgstr "Notificar nuevos registros por email"
+
+msgid "Recipient"
+msgstr "Destinatario"
+
+msgid "Background color"
+msgstr "Color de fondo"
+
+msgid "Gradient"
+msgstr "Gradiente"
+
+msgid "Motion"
+msgstr "Movimiento"
+
+msgid "Text"
+msgstr "Texto"
+
+msgid "Smart contrast"
+msgstr "Contraste inteligente"
+
+msgid "Smart logo contrast"
+msgstr "Contraste inteligente del logo"
+
+msgid "Logged-in users see the real site"
+msgstr "Usuarios conectados ven el sitio real"
+
+msgid "Show countdown"
+msgstr "Mostrar cuenta atrás"
+
+msgid "Open the site automatically"
+msgstr "Abrir el sitio automáticamente"
+
+msgid "Privacy policy"
+msgstr "Política de privacidad"
+
+msgid "Legal notice"
+msgstr "Aviso legal"
+
+msgid "Cookies"
+msgstr "Cookies"
+
+msgid "SEO title"
+msgstr "Título SEO"
+
+msgid "SEO description"
+msgstr "Descripción SEO"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+msgid "X"
+msgstr "X"
+
+msgid "Displays the remaining time. Hiding it does not change automatic opening."
+msgstr "Muestra el tiempo restante. Ocultarlo no cambia la apertura automática."
+
+msgid "At the selected date this screen is disabled and visitors can access the site, even if the countdown is hidden."
+msgstr "En la fecha indicada se desactiva esta pantalla y los visitantes acceden al sitio, aunque el contador esté oculto."
+
+msgid "Close"
+msgstr "Cerrar"
+
+msgid "Consent"
+msgstr "Consentimiento"
+
+msgid "FreeSoon subscribers"
+msgstr "Suscriptores de FreeSoon"
+
+msgid "Some records could not be erased. Please contact the site administrator."
+msgstr "No se pudieron borrar algunos registros. Contacta con el administrador del sitio."
+
+msgid "Detect in WordPress"
+msgstr "Detectar en WordPress"
+
+msgid "Link a page or post"
+msgstr "Enlazar página o artículo"
+
+msgid "Link or document"
+msgstr "Enlace o documento"
+
+msgid "Write text here"
+msgstr "Escribir texto aquí"
+
+msgid "Hide"
+msgstr "No mostrar"
+
+msgid "Top left"
+msgstr "Arriba izquierda"
+
+msgid "Top"
+msgstr "Arriba"
+
+msgid "Top right"
+msgstr "Arriba derecha"
+
+msgid "Left"
+msgstr "Izquierda"
+
+msgid "Center"
+msgstr "Centro"
+
+msgid "Right"
+msgstr "Derecha"
+
+msgid "Bottom left"
+msgstr "Abajo izquierda"
+
+msgid "Bottom"
+msgstr "Abajo"
+
+msgid "Bottom right"
+msgstr "Abajo derecha"
+
+msgid "Original logo"
+msgstr "Logo original"
+
+msgid "Unavailable"
+msgstr "No disponible"
+
+msgid "Invalid submission"
+msgstr "Envío no válido"
+
+msgid "Too many requests"
+msgstr "Demasiadas solicitudes"
+
+msgid "Storage failed"
+msgstr "No se pudo guardar"
+
+msgid "Invalid settings"
+msgstr "Ajustes no válidos"
+
+msgid "Accepted by mail service"
+msgstr "Aceptado por el servicio de correo"
+
+msgid "Mail delivery failed"
+msgstr "Falló el envío del correo"
+
+msgid "Coming Soon and Maintenance"
+msgstr "Próximamente y mantenimiento"
+
+msgid "If you use the optional FreeSoon notification form, the contact details and launch-notification consent are stored in this WordPress database. Optional administrator notifications use the site mail service. Records remain until the administrator deletes them or uninstalls FreeSoon. State your retention period and contact information here. Email records support WordPress personal-data export and erasure. Phone-only requests must be handled manually in FreeSoon Subscribers. A temporary hashed IP rate-limit key expires after ten minutes. A private-access cookie lasts one day when a visitor uses a private access link."
+msgstr "Si utilizas el formulario opcional de FreeSoon, los datos de contacto y el consentimiento para el aviso de lanzamiento se guardan en esta base de datos de WordPress. Las notificaciones opcionales al administrador utilizan el servicio de correo del sitio. Los registros permanecen hasta que el administrador los elimina o desinstala FreeSoon. Indica aquí tu plazo de conservación y tus datos de contacto. Los registros con correo permiten exportación y borrado mediante WordPress. Las solicitudes que solo contienen teléfono se gestionan manualmente en Suscriptores. La clave temporal con el hash de IP para limitar solicitudes caduca a los diez minutos. La cookie de acceso privado dura un día cuando se usa un enlace de acceso privado."
+
+msgid "Your email"
+msgstr "Tu correo"
+
+msgid "Your name"
+msgstr "Tu nombre"
+
+msgid "Your phone number"
+msgstr "Tu teléfono"
+
+msgid "We’ll be here soon"
+msgstr "Muy pronto estaremos aquí"
+
+msgid "We’re getting our website ready. Leave your email and we’ll let you know when it’s live."
+msgstr "Estamos preparando nuestra web. Déjanos tu correo y te avisaremos cuando esté lista."
+
+msgid "SOMETHING NEW IS COMING"
+msgstr "ESTAMOS PREPARANDO ALGO NUEVO"
+
+msgid "Notify me"
+msgstr "Avísame"
+
+msgid "Our website will be available soon."
+msgstr "Nuestro sitio estará disponible muy pronto."
+
+msgid "Days"
+msgstr "Días"
+
+msgid "Hours"
+msgstr "Horas"
+
+msgid "Minutes"
+msgstr "Minutos"
+
+msgid "Seconds"
+msgstr "Segundos"
+
+msgid "I agree to receive the launch notification."
+msgstr "Acepto recibir el aviso de lanzamiento."
+
+msgid "Thank you!"
+msgstr "Gracias. Te avisaremos."
+
+msgid "Please try again."
+msgstr "No se pudo guardar. Inténtalo de nuevo."
+
+msgid "We’re getting our website ready. It will be available soon."
+msgstr "Estamos preparando nuestra web. Muy pronto estará disponible."
+
+msgid "We’re getting our website ready. Leave your phone number and we’ll let you know when it’s live."
+msgstr "Estamos preparando nuestra web. Déjanos tu teléfono y te avisaremos cuando esté lista."
+
+msgid "FreeSoon preview"
+msgstr "Vista previa de FreeSoon"
+
+msgid "SEO / Social"
+msgstr "SEO / Redes sociales"
+
+msgid "We found a published page or post and connected it to this screen’s footer using “Link a page or post”."
+msgstr "Hemos encontrado una página o un artículo publicado y lo hemos conectado al footer de esta pantalla mediante «Enlazar página o artículo»."
+
+msgid "We found the privacy policy link in a menu and connected it to this screen’s footer."
+msgstr "Hemos encontrado el enlace de la política de privacidad en un menú y lo hemos conectado al footer de esta pantalla."
+
+msgid "We connected the privacy policy configured in WordPress to this screen’s footer."
+msgstr "Hemos conectado al footer de esta pantalla la política de privacidad configurada en WordPress."
+
+msgid "Several pages or posts could be the privacy policy. Choose the correct document using “Link a page or post”."
+msgstr "Hay varias páginas o artículos que podrían ser la política de privacidad. Elige el documento correcto en «Enlazar página o artículo»."
+
+msgid "Privacy policy connected"
+msgstr "Política de privacidad conectada"
+
+msgid "Finding a link does not confirm that its content is complete or suitable for your site. Review the policy and adapt it to the data you collect and the requirements that apply to your activity."
+msgstr "Encontrar un enlace no confirma que su contenido esté completo ni sea adecuado para tu sitio. Revisa la política y adáptala a los datos que recopilas y a los requisitos aplicables a tu actividad."
+
+msgid "OK"
+msgstr "Aceptar"

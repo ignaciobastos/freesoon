@@ -1,0 +1,922 @@
+# Copyright (C) 2026 FreeSoon
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: FreeSoon — Coming Soon & Maintenance 1.8.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/freesoon\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-11-07T13:27:19+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: freesoon\n"
+
+#. Plugin Name of the plugin
+#: freesoon.php
+msgid "FreeSoon — Coming Soon & Maintenance"
+msgstr ""
+
+#. Description of the plugin
+#: freesoon.php
+msgid "Create a coming soon or maintenance page with a live visual editor. Free, without ads or locked features."
+msgstr ""
+
+#. Author of the plugin
+#: freesoon.php
+msgid "FreeSoon"
+msgstr ""
+
+#: includes/i18n.php:5
+#: templates/admin-v2.php:63
+msgid "OK"
+msgstr ""
+
+#: includes/i18n.php:6
+#: templates/admin-v2.php:62
+msgid "Finding a link does not confirm that its content is complete or suitable for your site. Review the policy and adapt it to the data you collect and the requirements that apply to your activity."
+msgstr ""
+
+#: includes/i18n.php:7
+#: templates/admin-v2.php:60
+msgid "Privacy policy connected"
+msgstr ""
+
+#: includes/i18n.php:8
+msgid "Several pages or posts could be the privacy policy. Choose the correct document using “Link a page or post”."
+msgstr ""
+
+#: includes/i18n.php:9
+msgid "We connected the privacy policy configured in WordPress to this screen’s footer."
+msgstr ""
+
+#: includes/i18n.php:10
+msgid "We found the privacy policy link in a menu and connected it to this screen’s footer."
+msgstr ""
+
+#: includes/i18n.php:11
+msgid "We found a published page or post and connected it to this screen’s footer using “Link a page or post”."
+msgstr ""
+
+#: includes/i18n.php:12
+msgid "A logo has been added or changed in WordPress. Would you like to use it on your maintenance screen? Choosing No keeps your current selection."
+msgstr ""
+
+#: includes/i18n.php:13
+msgid "Accepted by mail service"
+msgstr ""
+
+#: includes/i18n.php:14
+msgid "Apply"
+msgstr ""
+
+#: includes/i18n.php:15
+msgid "At the selected date this screen is disabled and visitors can access the site, even if the countdown is hidden."
+msgstr ""
+
+#: includes/i18n.php:16
+msgid "Background"
+msgstr ""
+
+#: includes/i18n.php:17
+msgid "Background changed to "
+msgstr ""
+
+#: includes/i18n.php:18
+msgid "Background color"
+msgstr ""
+
+#: includes/i18n.php:19
+msgid "Background image / video"
+msgstr ""
+
+#: includes/i18n.php:20
+msgid "Bottom"
+msgstr ""
+
+#: includes/i18n.php:21
+msgid "Bottom aligned"
+msgstr ""
+
+#: includes/i18n.php:22
+msgid "Bottom left"
+msgstr ""
+
+#: includes/i18n.php:23
+msgid "Bottom right"
+msgstr ""
+
+#: includes/i18n.php:24
+msgid "Browser"
+msgstr ""
+
+#: includes/i18n.php:25
+msgid "Button label"
+msgstr ""
+
+#: includes/i18n.php:26
+msgid "Cancel"
+msgstr ""
+
+#: includes/i18n.php:27
+msgid "Center"
+msgstr ""
+
+#: includes/i18n.php:28
+msgid "Centered"
+msgstr ""
+
+#: includes/i18n.php:29
+msgid "Changes saved"
+msgstr ""
+
+#: includes/i18n.php:30
+msgid "Choose a PNG, JPG, WebP, GIF or AVIF image."
+msgstr ""
+
+#: includes/i18n.php:31
+msgid "Choose a supported image or video."
+msgstr ""
+
+#: includes/i18n.php:32
+msgid "Choose an image or video."
+msgstr ""
+
+#: includes/i18n.php:33
+msgid "Choose media"
+msgstr ""
+
+#: includes/i18n.php:34
+msgid "Click the image to change it or drop a file."
+msgstr ""
+
+#: includes/i18n.php:35
+msgid "Close"
+msgstr ""
+
+#: includes/i18n.php:36
+msgid "Color"
+msgstr ""
+
+#: includes/i18n.php:37
+msgid "Coming Soon and Maintenance"
+msgstr ""
+
+#: includes/i18n.php:38
+msgid "Coming soon"
+msgstr ""
+
+#: includes/i18n.php:39
+#: includes/privacy.php:25
+msgid "Consent"
+msgstr ""
+
+#: includes/i18n.php:40
+msgid "Contact details are stored in WordPress even if notification delivery fails."
+msgstr ""
+
+#: includes/i18n.php:41
+msgid "Contain"
+msgstr ""
+
+#: includes/i18n.php:42
+msgid "Content"
+msgstr ""
+
+#: includes/i18n.php:43
+msgid "Cookies"
+msgstr ""
+
+#: includes/i18n.php:44
+msgid "Copy"
+msgstr ""
+
+#: includes/i18n.php:45
+msgid "Could not confirm. Please try again."
+msgstr ""
+
+#: includes/i18n.php:46
+msgid "Could not save"
+msgstr ""
+
+#: includes/i18n.php:47
+msgid "Could not update preview"
+msgstr ""
+
+#: includes/i18n.php:48
+msgid "Cover"
+msgstr ""
+
+#: includes/i18n.php:49
+msgid "Cursive"
+msgstr ""
+
+#: includes/i18n.php:50
+msgid "Custom logo"
+msgstr ""
+
+#: includes/i18n.php:51
+msgid "Darken image / video"
+msgstr ""
+
+#: includes/i18n.php:52
+msgid "Days"
+msgstr ""
+
+#: includes/i18n.php:53
+msgid "Delete"
+msgstr ""
+
+#: includes/i18n.php:54
+msgid "Description"
+msgstr ""
+
+#: includes/i18n.php:55
+msgid "Design saved."
+msgstr ""
+
+#: includes/i18n.php:56
+msgid "Desktop"
+msgstr ""
+
+#: includes/i18n.php:57
+msgid "Detect in WordPress"
+msgstr ""
+
+#: includes/i18n.php:58
+msgid "Disable smart contrast to choose the text color."
+msgstr ""
+
+#: includes/i18n.php:59
+msgid "Displays the remaining time. Hiding it does not change automatic opening."
+msgstr ""
+
+#: includes/i18n.php:60
+msgid "Drop an image here or click to choose"
+msgstr ""
+
+#: includes/i18n.php:61
+msgid "Drop an image here or click to select"
+msgstr ""
+
+#: includes/i18n.php:62
+msgid "Drop an image or video, or click to choose"
+msgstr ""
+
+#: includes/i18n.php:63
+msgid "Edit formatted text"
+msgstr ""
+
+#: includes/i18n.php:64
+msgid "Editorial"
+msgstr ""
+
+#: includes/i18n.php:65
+#: includes/privacy.php:22
+msgid "Email"
+msgstr ""
+
+#: includes/i18n.php:66
+msgid "Email new subscriber notifications"
+msgstr ""
+
+#: includes/i18n.php:67
+msgid "Email placeholder"
+msgstr ""
+
+#: includes/i18n.php:68
+msgid "Enable Gradient to enable Motion."
+msgstr ""
+
+#: includes/i18n.php:69
+msgid "Enabled"
+msgstr ""
+
+#: includes/i18n.php:70
+msgid "Enter a valid launch date."
+msgstr ""
+
+#: includes/i18n.php:71
+msgid "Exclude paths · one per line"
+msgstr ""
+
+#: includes/i18n.php:72
+msgid "Export CSV"
+msgstr ""
+
+#: includes/i18n.php:73
+msgid "Eyebrow"
+msgstr ""
+
+#: includes/i18n.php:74
+msgid "Fantasy"
+msgstr ""
+
+#: includes/i18n.php:75
+msgid "File upload failed"
+msgstr ""
+
+#: includes/i18n.php:76
+msgid "Fit"
+msgstr ""
+
+#: includes/i18n.php:77
+msgid "Fit height"
+msgstr ""
+
+#: includes/i18n.php:78
+msgid "Form fields"
+msgstr ""
+
+#: includes/i18n.php:79
+msgid "FreeSoon is active."
+msgstr ""
+
+#: includes/i18n.php:80
+#: includes/privacy.php:20
+msgid "FreeSoon subscribers"
+msgstr ""
+
+#: includes/i18n.php:81
+msgid "FreeSoon · Subscribers"
+msgstr ""
+
+#: includes/i18n.php:82
+msgid "FreeSoon: new subscriber"
+msgstr ""
+
+#: includes/i18n.php:83
+msgid "Gradient"
+msgstr ""
+
+#: includes/i18n.php:84
+msgid "Headline"
+msgstr ""
+
+#: includes/i18n.php:85
+msgid "Hide"
+msgstr ""
+
+#: includes/i18n.php:86
+msgid "Hours"
+msgstr ""
+
+#: includes/i18n.php:87
+msgid "I agree to receive the launch notification."
+msgstr ""
+
+#: includes/i18n.php:88
+#: includes/privacy.php:42
+msgid "If you use the optional FreeSoon notification form, the contact details and launch-notification consent are stored in this WordPress database. Optional administrator notifications use the site mail service. Records remain until the administrator deletes them or uninstalls FreeSoon. State your retention period and contact information here. Email records support WordPress personal-data export and erasure. Phone-only requests must be handled manually in FreeSoon Subscribers. A temporary hashed IP rate-limit key expires after ten minutes. A private-access cookie lasts one day when a visitor uses a private access link."
+msgstr ""
+
+#: includes/i18n.php:89
+msgid "Image"
+msgstr ""
+
+#: includes/i18n.php:90
+msgid "Image upload failed"
+msgstr ""
+
+#: includes/i18n.php:91
+msgid "Image · "
+msgstr ""
+
+#: includes/i18n.php:92
+msgid "In many countries, collecting emails, phone numbers or other personal data requires information about who collects it, how it is used and how visitors can exercise their privacy rights. We could not find a privacy policy for this form."
+msgstr ""
+
+#: includes/i18n.php:93
+msgid "Information"
+msgstr ""
+
+#: includes/i18n.php:94
+msgid "Instagram"
+msgstr ""
+
+#: includes/i18n.php:95
+msgid "Invalid settings"
+msgstr ""
+
+#: includes/i18n.php:96
+msgid "Invalid submission"
+msgstr ""
+
+#: includes/i18n.php:97
+msgid "Keeps the original when readable; otherwise adapts the logo to white or black based on the background."
+msgstr ""
+
+#: includes/i18n.php:98
+msgid "Language"
+msgstr ""
+
+#: includes/i18n.php:99
+msgid "Launch date and time · WordPress timezone"
+msgstr ""
+
+#: includes/i18n.php:100
+msgid "Layout"
+msgstr ""
+
+#: includes/i18n.php:101
+msgid "Left"
+msgstr ""
+
+#: includes/i18n.php:102
+msgid "Legal notice"
+msgstr ""
+
+#: includes/i18n.php:103
+msgid "Legal text · maintenance only"
+msgstr ""
+
+#: includes/i18n.php:104
+msgid "Link a page or post"
+msgstr ""
+
+#: includes/i18n.php:105
+msgid "Link copied"
+msgstr ""
+
+#: includes/i18n.php:106
+msgid "Link found; included in the footer."
+msgstr ""
+
+#: includes/i18n.php:107
+msgid "Link or document"
+msgstr ""
+
+#: includes/i18n.php:108
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/i18n.php:109
+msgid "Logged-in users see the real site"
+msgstr ""
+
+#: includes/i18n.php:110
+msgid "Logo added to the media library"
+msgstr ""
+
+#: includes/i18n.php:111
+msgid "Logo contrast disabled: the original is already readable on this background."
+msgstr ""
+
+#: includes/i18n.php:112
+msgid "Logo contrast enabled to improve readability."
+msgstr ""
+
+#: includes/i18n.php:113
+msgid "Mail delivery failed"
+msgstr ""
+
+#: includes/i18n.php:114
+msgid "Maintenance"
+msgstr ""
+
+#: includes/i18n.php:115
+msgid "Media removed. Background changed to color."
+msgstr ""
+
+#: includes/i18n.php:116
+msgid "Minutes"
+msgstr ""
+
+#: includes/i18n.php:117
+msgid "Mobile"
+msgstr ""
+
+#: includes/i18n.php:118
+msgid "Mode"
+msgstr ""
+
+#: includes/i18n.php:119
+msgid "Monospace"
+msgstr ""
+
+#: includes/i18n.php:120
+msgid "Motion"
+msgstr ""
+
+#: includes/i18n.php:121
+#: includes/privacy.php:21
+msgid "Name"
+msgstr ""
+
+#: includes/i18n.php:122
+msgid "Name placeholder"
+msgstr ""
+
+#: includes/i18n.php:123
+msgid "Name requires email or phone. With neither contact method, the form is hidden."
+msgstr ""
+
+#: includes/i18n.php:124
+msgid "Name: "
+msgstr ""
+
+#: includes/i18n.php:125
+msgid "No logo"
+msgstr ""
+
+#: includes/i18n.php:126
+msgid "No logo will be shown."
+msgstr ""
+
+#: includes/i18n.php:127
+msgid "No matching fonts"
+msgstr ""
+
+#: includes/i18n.php:128
+msgid "No site logo"
+msgstr ""
+
+#: includes/i18n.php:129
+msgid "No, keep my selection"
+msgstr ""
+
+#: includes/i18n.php:130
+msgid "Not found."
+msgstr ""
+
+#: includes/i18n.php:131
+msgid "Notification"
+msgstr ""
+
+#: includes/i18n.php:132
+msgid "Notify me"
+msgstr ""
+
+#: includes/i18n.php:133
+msgid "On the current background"
+msgstr ""
+
+#: includes/i18n.php:134
+msgid "Open studio"
+msgstr ""
+
+#: includes/i18n.php:135
+msgid "Open the site automatically"
+msgstr ""
+
+#: includes/i18n.php:136
+msgid "Original"
+msgstr ""
+
+#: includes/i18n.php:137
+msgid "Original logo"
+msgstr ""
+
+#: includes/i18n.php:138
+msgid "Original size"
+msgstr ""
+
+#: includes/i18n.php:139
+msgid "Our website will be available soon."
+msgstr ""
+
+#: includes/i18n.php:140
+msgid "PNG, JPG, WebP, GIF, AVIF or video"
+msgstr ""
+
+#: includes/i18n.php:141
+msgid "Page"
+msgstr ""
+
+#: includes/i18n.php:142
+msgid "Page or post"
+msgstr ""
+
+#: includes/i18n.php:143
+#: includes/studio-v2.php:13
+msgid "Permission denied."
+msgstr ""
+
+#: includes/i18n.php:144
+#: includes/privacy.php:23
+msgid "Phone"
+msgstr ""
+
+#: includes/i18n.php:145
+msgid "Phone placeholder"
+msgstr ""
+
+#: includes/i18n.php:146
+msgid "Phone: "
+msgstr ""
+
+#: includes/i18n.php:147
+msgid "Please try again."
+msgstr ""
+
+#: includes/i18n.php:148
+msgid "Position"
+msgstr ""
+
+#: includes/i18n.php:149
+msgid "Privacy and legal links"
+msgstr ""
+
+#: includes/i18n.php:150
+msgid "Privacy policy"
+msgstr ""
+
+#: includes/i18n.php:151
+msgid "Private access"
+msgstr ""
+
+#: includes/i18n.php:152
+msgid "Recipient"
+msgstr ""
+
+#: includes/i18n.php:153
+msgid "Records are stored in WordPress. Optional notifications use wp_mail and your site SMTP settings."
+msgstr ""
+
+#: includes/i18n.php:154
+msgid "Remove"
+msgstr ""
+
+#: includes/i18n.php:155
+msgid "Remove custom logo"
+msgstr ""
+
+#: includes/i18n.php:156
+msgid "Right"
+msgstr ""
+
+#: includes/i18n.php:157
+msgid "SEO description"
+msgstr ""
+
+#: includes/i18n.php:158
+msgid "SEO title"
+msgstr ""
+
+#: includes/i18n.php:159
+msgid "SOMETHING NEW IS COMING"
+msgstr ""
+
+#: includes/i18n.php:160
+msgid "Save"
+msgstr ""
+
+#: includes/i18n.php:161
+msgid "Saved preview"
+msgstr ""
+
+#: includes/i18n.php:162
+msgid "Saving…"
+msgstr ""
+
+#: includes/i18n.php:163
+msgid "Search"
+msgstr ""
+
+#: includes/i18n.php:164
+msgid "Search email"
+msgstr ""
+
+#: includes/i18n.php:165
+msgid "Search fonts…"
+msgstr ""
+
+#: includes/i18n.php:166
+msgid "Seconds"
+msgstr ""
+
+#: includes/i18n.php:167
+msgid "Select background image or video"
+msgstr ""
+
+#: includes/i18n.php:168
+msgid "Select or change logo"
+msgstr ""
+
+#: includes/i18n.php:169
+msgid "Settings"
+msgstr ""
+
+#: includes/i18n.php:170
+msgid "Show countdown"
+msgstr ""
+
+#: includes/i18n.php:171
+msgid "Smart contrast"
+msgstr ""
+
+#: includes/i18n.php:172
+msgid "Smart logo contrast"
+msgstr ""
+
+#: includes/i18n.php:173
+#: includes/privacy.php:38
+msgid "Some records could not be erased. Please contact the site administrator."
+msgstr ""
+
+#: includes/i18n.php:174
+msgid "Storage failed"
+msgstr ""
+
+#: includes/i18n.php:175
+msgid "Style"
+msgstr ""
+
+#: includes/i18n.php:176
+msgid "Subscribers"
+msgstr ""
+
+#: includes/i18n.php:177
+msgid "Subscription"
+msgstr ""
+
+#: includes/i18n.php:178
+msgid "System / Sans serif"
+msgstr ""
+
+#: includes/i18n.php:179
+msgid "Tablet"
+msgstr ""
+
+#: includes/i18n.php:180
+msgid "Text"
+msgstr ""
+
+#: includes/i18n.php:181
+msgid "Thank you!"
+msgstr ""
+
+#: includes/i18n.php:182
+msgid "The public language automatically follows WordPress or the active multilingual plugin."
+msgstr ""
+
+#: includes/i18n.php:183
+msgid "The site is temporarily under construction."
+msgstr ""
+
+#: includes/i18n.php:184
+msgid "Tile (image)"
+msgstr ""
+
+#: includes/i18n.php:185
+msgid "Too many requests"
+msgstr ""
+
+#: includes/i18n.php:186
+msgid "Top"
+msgstr ""
+
+#: includes/i18n.php:187
+msgid "Top left"
+msgstr ""
+
+#: includes/i18n.php:188
+msgid "Top right"
+msgstr ""
+
+#: includes/i18n.php:189
+msgid "Trim transparent margins"
+msgstr ""
+
+#: includes/i18n.php:190
+msgid "Two columns"
+msgstr ""
+
+#: includes/i18n.php:191
+msgid "Typography"
+msgstr ""
+
+#: includes/i18n.php:192
+#: includes/privacy.php:24
+msgid "UTC date"
+msgstr ""
+
+#: includes/i18n.php:193
+msgid "Unavailable"
+msgstr ""
+
+#: includes/i18n.php:194
+msgid "Under Privacy and legal links you can link an existing page, post or document, or write formatted text here. Text created inside FreeSoon is only shown on the maintenance screen; it does not create legal pages for the rest of your website. Adapt the content to your activity and applicable requirements."
+msgstr ""
+
+#: includes/i18n.php:195
+msgid "Use as background"
+msgstr ""
+
+#: includes/i18n.php:196
+msgid "Use site logo"
+msgstr ""
+
+#: includes/i18n.php:197
+msgid "Use this file"
+msgstr ""
+
+#: includes/i18n.php:198
+msgid "Using the logo configured in WordPress."
+msgstr ""
+
+#: includes/i18n.php:199
+msgid "Video"
+msgstr ""
+
+#: includes/i18n.php:200
+msgid "Video · "
+msgstr ""
+
+#: includes/i18n.php:201
+msgid "View records / Export CSV"
+msgstr ""
+
+#: includes/i18n.php:202
+msgid "Visitor privacy"
+msgstr ""
+
+#: includes/i18n.php:203
+msgid "Visitors see the maintenance screen."
+msgstr ""
+
+#: includes/i18n.php:204
+msgid "We detected a site logo"
+msgstr ""
+
+#: includes/i18n.php:205
+msgid "We’ll be here soon"
+msgstr ""
+
+#: includes/i18n.php:206
+msgid "We’re getting our website ready. It will be available soon."
+msgstr ""
+
+#: includes/i18n.php:207
+msgid "We’re getting our website ready. Leave your email and we’ll let you know when it’s live."
+msgstr ""
+
+#: includes/i18n.php:208
+msgid "We’re getting our website ready. Leave your phone number and we’ll let you know when it’s live."
+msgstr ""
+
+#: includes/i18n.php:209
+msgid "WordPress Font Library"
+msgstr ""
+
+#: includes/i18n.php:210
+msgid "WordPress has no site logo. Choose Custom logo to add one."
+msgstr ""
+
+#: includes/i18n.php:211
+msgid "WordPress links are detected automatically. Text created here is only displayed on the maintenance screen."
+msgstr ""
+
+#: includes/i18n.php:212
+msgid "Write text here"
+msgstr ""
+
+#: includes/i18n.php:213
+msgid "X"
+msgstr ""
+
+#: includes/i18n.php:214
+msgid "Yes, use site logo"
+msgstr ""
+
+#: includes/i18n.php:215
+msgid "Your browser cannot play this video. Try WebM or MP4 with a supported codec."
+msgstr ""
+
+#: includes/i18n.php:216
+msgid "Your email"
+msgstr ""
+
+#: includes/i18n.php:217
+msgid "Your name"
+msgstr ""
+
+#: includes/i18n.php:218
+msgid "Your phone number"
+msgstr ""
+
+#: includes/i18n.php:219
+msgid "color"
+msgstr ""
+
+#: includes/i18n.php:220
+msgid "image"
+msgstr ""
+
+#: includes/i18n.php:221
+msgid "video"
+msgstr ""
+
+#: includes/i18n.php:222
+msgid "● FreeSoon active"
+msgstr ""
+
+#: templates/admin-v2.php:55
+msgid "SEO / Social"
+msgstr ""
+
+#: templates/admin-v2.php:56
+msgid "FreeSoon preview"
+msgstr ""

@@ -1,0 +1,77 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: it\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Your email"
+msgstr "La tua email"
+
+msgid "Your name"
+msgstr "Il tuo nome"
+
+msgid "Your phone number"
+msgstr "Il tuo telefono"
+
+msgid "We’ll be here soon"
+msgstr "Presto saremo qui"
+
+msgid "We’re getting our website ready. Leave your email and we’ll let you know when it’s live."
+msgstr "Stiamo preparando il nostro sito. Lascia la tua email e ti avviseremo quando sarà pronto."
+
+msgid "SOMETHING NEW IS COMING"
+msgstr "STA ARRIVANDO QUALCOSA DI NUOVO"
+
+msgid "Notify me"
+msgstr "Avvisami"
+
+msgid "Our website will be available soon."
+msgstr "Il nostro sito sarà presto disponibile."
+
+msgid "Days"
+msgstr "Giorni"
+
+msgid "Hours"
+msgstr "Ore"
+
+msgid "Minutes"
+msgstr "Minuti"
+
+msgid "Seconds"
+msgstr "Secondi"
+
+msgid "I agree to receive the launch notification."
+msgstr "Desidero ricevere la notifica."
+
+msgid "Thank you!"
+msgstr "Grazie!"
+
+msgid "Please try again."
+msgstr "Riprova."
+
+msgid "We’re getting our website ready. It will be available soon."
+msgstr "Stiamo preparando il nostro sito. Sarà presto disponibile."
+
+msgid "We’re getting our website ready. Leave your phone number and we’ll let you know when it’s live."
+msgstr "Stiamo preparando il nostro sito. Lascia il tuo numero di telefono e ti avviseremo quando sarà pronto."
+
+msgid "Close"
+msgstr "Chiudi"
+
+msgid "Privacy policy connected"
+msgstr "Informativa sulla privacy collegata"
+
+msgid "Finding a link does not confirm that its content is complete or suitable for your site. Review the policy and adapt it to the data you collect and the requirements that apply to your activity."
+msgstr "Trovare un collegamento non conferma che il contenuto sia completo o adatto al sito. Verifica l’informativa e adattala ai dati raccolti e ai requisiti applicabili alla tua attività."
+
+msgid "We found a published page or post and connected it to this screen’s footer using “Link a page or post”."
+msgstr "Abbiamo trovato una pagina o un articolo pubblicato e lo abbiamo collegato al piè di pagina di questa schermata tramite « Collega una pagina o un articolo »."
+
+msgid "We found the privacy policy link in a menu and connected it to this screen’s footer."
+msgstr "Abbiamo trovato il collegamento all’informativa sulla privacy in un menu e lo abbiamo aggiunto al piè di pagina di questa schermata."
+
+msgid "We connected the privacy policy configured in WordPress to this screen’s footer."
+msgstr "Abbiamo collegato l’informativa sulla privacy configurata in WordPress al piè di pagina di questa schermata."
+
+msgid "Several pages or posts could be the privacy policy. Choose the correct document using “Link a page or post”."
+msgstr "Più pagine o articoli potrebbero essere l’informativa sulla privacy. Scegli il documento corretto tramite « Collega una pagina o un articolo »."
+
+msgid "OK"
+msgstr "OK"
