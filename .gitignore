@@ -1,0 +1,37 @@
+# Operating system and editor files
+.DS_Store
+._*
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+wp-config.php
+wp-config-local.php
+*.pem
+*.key
+
+# Local WordPress, data and generated archives
+/wordpress-local/
+/wp-admin/
+/wp-includes/
+/wp-content/
+/uploads/
+/backups/
+*.sql
+*.sql.gz
+*.sqlite
+*.sqlite3
+*.log
+*.zip
+/output/
+/tmp/
+
+# Local tooling dependencies
+/node_modules/
+/vendor/

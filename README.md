@@ -22,7 +22,7 @@ See [readme.txt](readme.txt) for installation, translations, data handling, limi
 
 The repository root is the plugin directory. Place it in `wp-content/plugins/freesoon/`, then activate FreeSoon in WordPress. No build step is required. Never commit the surrounding WordPress installation, its database, uploads, or credentials.
 
-The original PHP, JavaScript, and CSS sources are included. Lucide is bundled locally; its source reference and license are documented in readme.txt and assets/LUCIDE-LICENSE. Translation sources and compiled catalogs are included in languages/.
+The original PHP, JavaScript, and CSS sources are included. Lucide is bundled locally; its source reference and license are documented in readme.txt and assets/LUCIDE-LICENSE. Translations are distributed through WordPress.org language packs; no translation catalogs are bundled.
 
 Internal `obra_` identifiers are retained for compatibility with existing settings.
 

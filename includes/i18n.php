@@ -224,13 +224,6 @@ function obra_messages() {
 }
 function obra_t($es,$en) { $messages=obra_messages(); return $messages[$en] ?? $en; }
 function obra_js_messages() { return obra_messages(); }
-function obra_load_language(){
- $locale=get_locale();
- $file=OBRA_DIR.'languages/freesoon-'.sanitize_file_name($locale).'.mo';
- if(!is_readable($file))$file=OBRA_DIR.'languages/freesoon-'.substr(sanitize_file_name($locale),0,2).'.mo';
- if(is_readable($file))load_textdomain('freesoon',$file,$locale);
-}
-add_action('init','obra_load_language');
-add_action('change_locale','obra_load_language');
+// WordPress loads official language packs for the freesoon text domain on demand.
 
 function obra_translate_public($text) { $messages=obra_messages(); return $messages[$text] ?? $text; }

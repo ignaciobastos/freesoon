@@ -4,7 +4,7 @@ Tags: coming soon, maintenance, under construction, visual editor, countdown
 Requires at least: 6.4
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 1.8.3
+Stable tag: 1.8.5
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -15,7 +15,7 @@ A free visual coming soon and maintenance page builder with backgrounds, countdo
 FreeSoon is free software: no Pro upgrade, advertising, telemetry or locked features.
 
 * Edit the page directly in the live preview.
-* Four layouts, image/video backgrounds, gradients, fonts and custom CSS.
+* Four layouts, image/video backgrounds, gradients and fonts.
 * Optional countdown and independent scheduled opening.
 * Optional name, email and phone fields. Contact fields are off by default.
 * Automatic discovery of privacy links, or custom legal text and page links.
@@ -23,7 +23,7 @@ FreeSoon is free software: no Pro upgrade, advertising, telemetry or locked feat
 * Coming soon (HTTP 200) and maintenance (HTTP 503) modes.
 * Private access links and path exclusions.
 
-The interface follows the WordPress site language. English and Spanish interface translations are bundled. Public default content also includes French, German, Italian and Portuguese. Additional interface translations can be supplied using standard WordPress language packs. User-written text is never automatically translated.
+FreeSoon uses English source strings and standard WordPress.org language packs when available for the WordPress language. Translation files are not bundled. Without a language pack, the interface and default content are in English. User-written text is never automatically translated.
 
 FreeSoon combines direct text editing in the live preview with synchronized sidebar controls, automatic logo contrast and transparent-margin trimming, WordPress font discovery, and background framing. Countdown visibility and scheduled opening are independent. Legal links can be discovered from WordPress settings, menus, or published privacy pages/posts; detection does not verify legal compliance.
 
@@ -53,12 +53,22 @@ Formats and codecs must be accepted by WordPress and supported by the visitor's 
 
 == Third-party resources ==
 
-Lucide icons v0.468.0, ISC license. License included in assets/LUCIDE-LICENSE.
-Source: https://github.com/lucide-icons/lucide/tree/0.468.0
-Distributed UMD build: https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js
+Lucide icons v1.73.0, ISC license. License included in assets/LUCIDE-LICENSE.
+Source: https://github.com/lucide-icons/lucide/tree/1.73.0
+Distributed UMD build: https://unpkg.com/lucide@1.73.0/dist/umd/lucide.min.js
 No build step is required for FreeSoon source. The Lucide source and build configuration are available at the versioned repository above; the included UMD build is loaded locally, never downloaded at runtime. All other plugin source is distributed unminified. FreeSoon branding and original assets are distributed under the plugin GPL license.
 
 == Changelog ==
+
+= 1.8.5 =
+* Remove bundled translation catalogs and the custom translation loader; use WordPress.org language packs.
+* Use translatable English default content while preserving user-written content.
+
+= 1.8.4 =
+* Remove arbitrary custom CSS input and rendering.
+* Load public and editor-preview styles through WordPress enqueue APIs.
+* Update Lucide to 1.73.0 and move the admin menu below core items.
+* Prefer WordPress.org language packs over bundled translation fallbacks.
 
 = 1.8.3 =
 * Link the plugin author to https://ignaciobastos.com/.

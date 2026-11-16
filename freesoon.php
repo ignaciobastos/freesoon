@@ -2,11 +2,10 @@
 /**
  * Plugin Name: FreeSoon — Coming Soon & Maintenance
  * Description: Create a coming soon or maintenance page with a live visual editor. Free, without ads or locked features.
- * Version: 1.8.3
+ * Version: 1.8.5
  * Author: Ignacio Bastos
  * Author URI: https://ignaciobastos.com/
  * Text Domain: freesoon
- * Domain Path: /languages
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Requires at least: 6.4
  * Requires PHP: 7.4
@@ -15,7 +14,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) { exit; }
 
-define( 'OBRA_VERSION', '1.8.3' );
+define( 'OBRA_VERSION', '1.8.5' );
 define( 'OBRA_FILE', __FILE__ );
 define( 'OBRA_DIR', plugin_dir_path( __FILE__ ) );
 define( 'OBRA_URL', plugin_dir_url( __FILE__ ) );

@@ -1,7 +1,7 @@
 <?php
 defined('ABSPATH') || exit;
 
-function obra_default_content($lang) {
+function obra_legacy_default_content($lang) {
     $catalog = [
         'es'=>['Muy pronto estaremos aquí','Estamos preparando nuestra web. Déjanos tu correo y te avisaremos cuando esté lista.','ESTAMOS PREPARANDO ALGO NUEVO','Avísame','Muy pronto estaremos aquí','Nuestro sitio estará disponible muy pronto.'],
         'en'=>["We’ll be here soon",'We’re getting our website ready. Leave your email and we’ll let you know when it’s live.','SOMETHING NEW IS COMING','Notify me',"We’ll be here soon",'Our website will be available soon.'],
@@ -21,9 +21,15 @@ function obra_default_content($lang) {
     return array_combine(['email_placeholder','name_placeholder','phone_placeholder'],$placeholders[$lang]??$placeholders['en']) + array_combine(['title','text','eyebrow','button_text','seo_title','seo_description'],$catalog[$lang]??$catalog['en']);
 }
 
+// Legacy localized strings above are only used to recognize defaults saved by older versions.
+// New default content is English and is translated through the standard gettext catalog.
+function obra_default_content($lang) {
+    return obra_legacy_default_content('en');
+}
+
 function obra_content_is_default($key,$value) {
     foreach(['es','en','fr','de','it','pt'] as $lang)
-        if($value===(obra_default_content($lang)[$key]??null))return true;
+        if($value===(obra_legacy_default_content($lang)[$key]??null))return true;
     $legacy=[
         'title'=>['Muy pronto, una nueva forma de verlo todo.','Algo nuevo está por llegar.','Something wonderful is coming.','Une nouvelle aventure commence.','Etwas Neues entsteht.','Qualcosa di nuovo sta arrivando.','Algo novo está a chegar.'],
         'text'=>['We’re getting our website ready. Leave your phone number and we’ll let you know when it’s live.','Estamos preparando nuestra web. Déjanos tu teléfono y te avisaremos cuando esté lista.','Nous préparons notre site. Laissez votre numéro de téléphone et nous vous préviendrons dès son ouverture.','Wir bereiten unsere Website vor. Hinterlassen Sie Ihre Telefonnummer und wir informieren Sie zum Start.','Stiamo preparando il nostro sito. Lascia il tuo numero di telefono e ti avviseremo quando sarà pronto.','Estamos a preparar o nosso site. Deixe o seu telefone e avisaremos quando estiver pronto.','Estamos preparando nuestra web. Muy pronto estará disponible.','We’re getting our website ready. It will be available soon.','Nous préparons notre site. Il sera bientôt disponible.','Wir bereiten unsere Website vor. Sie ist bald verfügbar.','Stiamo preparando il nostro sito. Sarà presto disponibile.','Estamos a preparar o nosso site. Estará disponível em breve.','Estamos dando los últimos retoques. Déjanos tu correo y te avisaremos cuando abramos las puertas.','Estamos dando los últimos retoques. Déjanos tu correo y te avisaremos cuando abramos las puertas','Estamos preparando nuestra nueva web. Te avisaremos cuando esté lista.','We are putting the finishing touches on our new website. Be the first to know.','Notre nouveau site arrive bientôt. Soyez les premiers informés.','Unsere neue Website ist bald verfügbar. Bleiben Sie informiert.','Il nostro nuovo sito sarà presto online. Resta aggiornato.','Estamos a preparar a nossa nova web. Seja o primeiro a saber.'],
@@ -41,12 +47,10 @@ function obra_localize_content($settings) {
         $settings[$key]=obra_content_is_default($key,$value)?obra_translate_public($default):$value;
     }
     if(empty($settings['custom_content']['text']) && (!$settings['show_form'] || (!$settings['form_email']&&!$settings['form_phone']))){
-        $neutral=['es'=>'Estamos preparando nuestra web. Muy pronto estará disponible.','en'=>'We’re getting our website ready. It will be available soon.','fr'=>'Nous préparons notre site. Il sera bientôt disponible.','de'=>'Wir bereiten unsere Website vor. Sie ist bald verfügbar.','it'=>'Stiamo preparando il nostro sito. Sarà presto disponibile.','pt'=>'Estamos a preparar o nosso site. Estará disponível em breve.'];
-        $settings['text']=obra_translate_public($neutral[$lang]??$neutral['en']);
+        $settings['text']=obra_translate_public('We’re getting our website ready. It will be available soon.');
     }
     if(empty($settings['custom_content']['text']) && $settings['show_form'] && $settings['form_phone'] && !$settings['form_email']) {
-        $phone=['es'=>'Estamos preparando nuestra web. Déjanos tu teléfono y te avisaremos cuando esté lista.','en'=>'We’re getting our website ready. Leave your phone number and we’ll let you know when it’s live.','fr'=>'Nous préparons notre site. Laissez votre numéro de téléphone et nous vous préviendrons dès son ouverture.','de'=>'Wir bereiten unsere Website vor. Hinterlassen Sie Ihre Telefonnummer und wir informieren Sie zum Start.','it'=>'Stiamo preparando il nostro sito. Lascia il tuo numero di telefono e ti avviseremo quando sarà pronto.','pt'=>'Estamos a preparar o nosso site. Deixe o seu telefone e avisaremos quando estiver pronto.'];
-        $settings['text']=obra_translate_public($phone[$lang]??$phone['en']);
+        $settings['text']=obra_translate_public('We’re getting our website ready. Leave your phone number and we’ll let you know when it’s live.');
     }
     return $settings;
 }

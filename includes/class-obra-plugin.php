@@ -32,19 +32,19 @@ final class Obra_Plugin {
             'content_language' => 'auto', 'translations' => array(), 'custom_content' => array(),
             'notify' => false, 'notification_email' => get_option('admin_email'),
             'legal_links' => array(), 'privacy_url' => '', 'show_language_switch' => true,
-            'site_logo_snapshot' => wp_get_attachment_image_url(get_theme_mod('custom_logo'),'full') ?: '', 'logo' => '', 'logo_source' => (has_custom_logo() ? 'site' : 'custom'), 'logo_smart' => true, 'logo_trim' => true, 'logo_force' => false, 'eyebrow' => 'ESTAMOS CONSTRUYENDO ALGO ESPECIAL',
-            'title' => 'Muy pronto, una nueva forma de verlo todo.',
-            'text' => 'Estamos dando los últimos retoques. Déjanos tu correo y te avisaremos cuando abramos las puertas.',
-            'button_text' => 'Avísame', 'show_form' => true, 'form_email' => false, 'form_name' => false, 'form_phone' => false, 'email_placeholder' => 'Tu correo', 'name_placeholder' => 'Tu nombre', 'phone_placeholder' => 'Tu teléfono', 'show_countdown' => true,
+            'site_logo_snapshot' => wp_get_attachment_image_url(get_theme_mod('custom_logo'),'full') ?: '', 'logo' => '', 'logo_source' => (has_custom_logo() ? 'site' : 'custom'), 'logo_smart' => true, 'logo_trim' => true, 'logo_force' => false, 'eyebrow' => 'SOMETHING NEW IS COMING',
+            'title' => 'We’ll be here soon',
+            'text' => 'We’re getting our website ready. Leave your email and we’ll let you know when it’s live.',
+            'button_text' => 'Notify me', 'show_form' => true, 'form_email' => false, 'form_name' => false, 'form_phone' => false, 'email_placeholder' => 'Your email', 'name_placeholder' => 'Your name', 'phone_placeholder' => 'Your phone number', 'show_countdown' => true,
             'launch_date' => wp_date( 'Y-m-d\TH:i', time() + WEEK_IN_SECONDS ),
             'background_media_kind' => 'image', 'background_fit' => 'cover', 'background_position' => '50% 50%',
             'background_type' => 'gradient', 'background_image' => '',
             'background_video' => '', 'color_bg' => '#0c0d10', 'color_accent' => '#d9ff57',
             'color_text' => '#f5f4ef', 'font' => 'system', 'overlay' => 35,
             'animation' => 'float', 'social_instagram' => '', 'social_linkedin' => '',
-            'social_x' => '', 'custom_css' => '', 'exclude_paths' => '',
+            'social_x' => '', 'exclude_paths' => '',
             'bypass_token' => wp_generate_password( 18, false ), 'allow_logged_in' => true,
-            'seo_title' => 'Estamos preparando algo nuevo', 'seo_description' => 'Nuestro sitio estará disponible muy pronto.',
+            'seo_title' => 'We’ll be here soon', 'seo_description' => 'Our website will be available soon.',
         );
     }
 
@@ -59,7 +59,7 @@ final class Obra_Plugin {
 
     public static function settings() {
         $saved=get_option(self::OPTION,array());
-        unset($saved['editor_language']);
+        unset($saved['editor_language'], $saved['custom_css']);
         if(!isset($saved['motion_preference']))$saved['motion_preference']=$saved['motion']??true;
         if(!isset($saved['logo_source']) && !empty($saved['logo'])) $saved['logo_source']='custom';
         if(!array_key_exists('site_logo_snapshot',$saved)) { $saved['site_logo_snapshot']=wp_get_attachment_image_url(get_theme_mod('custom_logo'),'full')?:''; update_option(self::OPTION,$saved,false); }
@@ -70,7 +70,7 @@ final class Obra_Plugin {
     }
 
     public function admin_menu() {
-        add_menu_page( 'FreeSoon', 'FreeSoon', 'manage_options', 'obra', array( $this, 'admin_page' ), 'dashicons-hammer', 3 );
+        add_menu_page( 'FreeSoon', 'FreeSoon', 'manage_options', 'obra', array( $this, 'admin_page' ), 'dashicons-hammer', 80 );
     }
 
     public function admin_assets( $hook ) {
@@ -145,7 +145,6 @@ final class Obra_Plugin {
             if ( in_array( $key, $booleans, true ) ) { $out[ $key ] = (bool) $value; }
             elseif ( in_array( $key, $urls, true ) ) { $out[ $key ] = esc_url_raw( $value ); }
             elseif ( 0 === strpos( $key, 'color_' ) ) { $out[ $key ] = sanitize_hex_color( $value ) ?: $default; }
-            elseif ( 'custom_css' === $key ) { $out[ $key ] = wp_strip_all_tags( $value ); }
             elseif ( 'overlay' === $key ) { $out[ $key ] = min( 90, max( 0, absint( $value ) ) ); }
             elseif ( 'text' === $key ) { $out[ $key ] = wp_kses_post( $value ); }
             else { $out[ $key ] = sanitize_text_field( $value ); }
